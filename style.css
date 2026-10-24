@@ -1,0 +1,5 @@
+:root{--bg:#0b0d12;--fg:#efe9de;--muted:#9a9488;--amber:#f4b56a}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px max(16px,env(safe-area-inset-left))}
+h1{font-size:2rem;margin:0 0 .5rem}h2{font-size:1.2rem;margin-top:2rem;color:var(--amber)}
+a{color:var(--amber)}p.small{color:var(--muted);font-size:.9rem}
